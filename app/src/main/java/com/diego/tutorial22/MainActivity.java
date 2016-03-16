@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.RelativeLayout;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,5 +23,25 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.relative_layout);
+        switch(item.getItemId()){
+            case R.id.id_blue_color:
+                relativeLayout.setBackgroundColor(getResources().getColor(R.color.blue, null));
+                break;
+            case R.id.id_red_color:
+                relativeLayout.setBackgroundColor(getResources().getColor(R.color.red, null));
+                break;
+            case R.id.id_green_color:
+                relativeLayout.setBackgroundColor(getResources().getColor(R.color.green, null));
+                break;
+            case R.id.id_purple_color:
+                relativeLayout.setBackgroundColor(getResources().getColor(R.color.purple, null));
+                break;
+        }
+        return true;
+
+    }
 
 }

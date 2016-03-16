@@ -3,5 +3,10 @@
     <string name="settings">Settings</string>
     <string name="title_search">Search</string>
     <string name="title_share">Share</string>
+    <string name="title_red">Red</string>
+    <string name="title_blue">Blue</string>
+    <string name="title_purple">Purple</string>
+    <string name="title_orange">Orange</string>
+    <string name="title_green">Green</string>
 
 </resources>
