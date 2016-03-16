@@ -8,9 +8,16 @@
     <item
         android:id="@+id/id_search"
         android:title="@string/title_search"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/icon_search"
         ></item>
     <item
         android:id="@+id/id_share"
         android:title="@string/title_share"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/icon_share"
         ></item>
+
+
+
 </menu>
